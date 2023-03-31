@@ -429,8 +429,8 @@ async def get_shortlink(link):
 
     url = f'{SHORT_URL}/api'
     params = {
-      'api': SHORT_API,
-      'url': link,
+      'api': 0ffce356f0dc1ce0b37703468078765181aeca0a,
+      'url': omegalinks.in, 
     }
     try:
         async with aiohttp.ClientSession() as session:
